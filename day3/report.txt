@@ -1,0 +1,21 @@
+=== Log Report (Пн 24 ноя 2025 16:07:29 MSK) ===
+
+[Last SSH events]
+-- No entries --
+
+[Most active processes]
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+orion-p+    3044 40.6  4.3 4811128 461464 ?      Ssl  15:05  25:01 /usr/bin/gnome-shell
+root        7234  0.4  0.4 488352 43448 ?        Ssl  15:59   0:02 /usr/libexec/fwupd/fwupd
+orion-p+    4022  0.4  0.5 707640 59576 ?        Rsl  15:06   0:16 /usr/libexec/gnome-terminal-server
+orion-p+    4030  0.2  0.0  13804  7012 pts/0    Ss   15:06   0:10 zsh
+orion-p+    3190  0.1  0.1 388784 11560 ?        Ssl  15:05   0:06 /usr/bin/ibus-daemon --panel disable
+
+[Disk usage]
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1,1G  1,7M  1,1G   1% /run
+/dev/sda2        24G   16G  7,2G  68% /
+tmpfs           5,1G     0  5,1G   0% /dev/shm
+efivarfs        256K  153K   99K  61% /sys/firmware/efi/efivars
+tmpfs           5,0M  8,0K  5,0M   1% /run/lock
+tmpfs           1,0M     0  1,0M   0% /run/credentials/systemd-journald.service
