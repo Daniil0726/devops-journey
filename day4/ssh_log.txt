@@ -1,0 +1,8 @@
+ноя 27 15:02:07 iacon systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+ноя 27 15:02:07 iacon sshd[1848]: Server listening on 0.0.0.0 port 22.
+ноя 27 15:02:07 iacon sshd[1848]: Server listening on :: port 22.
+ноя 27 15:02:07 iacon systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+ноя 27 15:43:44 iacon sshd[1848]: Received signal 15; terminating.
+ноя 27 15:43:44 iacon systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+ноя 27 15:43:44 iacon systemd[1]: ssh.service: Deactivated successfully.
+ноя 27 15:43:44 iacon systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.

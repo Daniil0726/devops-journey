@@ -1,0 +1,10 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+orion-p+    3412 84.3  4.0 4718472 430428 ?      Ssl  15:38  10:04 /usr/bin/gnome-shell
+orion-p+    3869  0.9  0.3 424644 32296 ?        Sl   15:38   0:06 /usr/libexec/ibus-extension-gtk3
+root        2089  0.7  1.1 299440 121344 ?       Sl   15:02   0:22 /usr/bin/python3 /usr/bin/unattended-upgrade
+orion-p+    4455  0.7  0.5 707272 59368 ?        Ssl  15:38   0:05 /usr/libexec/gnome-terminal-server
+root           1  0.7  0.1  25628 15888 ?        Ss   15:01   0:20 /sbin/init splash
+orion-p+    4462  0.6  0.0  13684  6748 pts/0    Ss   15:38   0:04 zsh
+_apt        2933  0.4  0.1  26188 12120 ?        S    15:02   0:12 /usr/lib/apt/methods/http
+root        1818  0.2  0.4 1937312 44972 ?       Ssl  15:02   0:06 /usr/bin/containerd
+orion-p+    3678  0.1  0.1 462516 11508 ?        Ssl  15:38   0:01 /usr/bin/ibus-daemon --panel disable

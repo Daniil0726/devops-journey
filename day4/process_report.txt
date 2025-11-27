@@ -1,0 +1,44 @@
+=== Process Report (Чт 27 ноя 2025 16:21:45 MSK) ===
+
+[Top 5 Memory]
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+orion-p+    3412 75.9  4.0 4726664 430540 ?      Ssl  15:38  32:56 /usr/bin/gnome-shell
+root        2089  0.4  1.1 299440 121344 ?       Sl   15:02   0:22 /usr/bin/python3 /usr/bin/unattended-upgrade
+orion-p+    4167  0.0  1.0 1417280 113104 ?      Sl   15:38   0:00 /usr/libexec/mutter-x11-frames
+orion-p+    4112  0.0  0.8 478616 85060 ?        Ssl  15:38   0:00 /usr/libexec/gsd-xsettings
+root        2032  0.0  0.7 2045328 74648 ?       Ssl  15:02   0:01 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+
+[Top 5 CPU]
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+orion-p+    6460  100  0.0  12952  4756 pts/0    R+   16:21   0:00 ps aux --sort=-%cpu
+orion-p+    3412 75.9  4.0 4722568 430540 ?      Ssl  15:38  32:56 /usr/bin/gnome-shell
+root           1  0.5  0.1  25628 15888 ?        Ss   15:01   0:28 /sbin/init splash
+root        2089  0.4  1.1 299440 121344 ?       Sl   15:02   0:22 /usr/bin/python3 /usr/bin/unattended-upgrade
+orion-p+    4455  0.4  0.5 707700 60008 ?        Ssl  15:38   0:12 /usr/libexec/gnome-terminal-server
+
+[SSH service status]
+○ ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/usr/lib/systemd/system/ssh.service; enabled; preset: enabled)
+     Active: inactive (dead) since Thu 2025-11-27 15:43:44 MSK; 38min ago
+   Duration: 41min 37.542s
+ Invocation: a92df174ddee426d8f42a0c3881bfa01
+TriggeredBy: ● ssh.socket
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+    Process: 1808 ExecStartPre=/usr/sbin/sshd -t (code=exited, status=0/SUCCESS)
+    Process: 1848 ExecStart=/usr/sbin/sshd -D $SSHD_OPTS (code=exited, status=0/SUCCESS)
+   Main PID: 1848 (code=exited, status=0/SUCCESS)
+   Mem peak: 2.3M
+        CPU: 66ms
+
+ноя 27 15:02:07 iacon systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+ноя 27 15:02:07 iacon sshd[1848]: Server listening on 0.0.0.0 port 22.
+ноя 27 15:02:07 iacon sshd[1848]: Server listening on :: port 22.
+ноя 27 15:02:07 iacon systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+ноя 27 15:43:44 iacon sshd[1848]: Received signal 15; terminating.
+ноя 27 15:43:44 iacon systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+ноя 27 15:43:44 iacon systemd[1]: ssh.service: Deactivated successfully.
+ноя 27 15:43:44 iacon systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+
+[Recent SSH logs]
+-- No entries --

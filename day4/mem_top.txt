@@ -1,0 +1,10 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+orion-p+    3412 86.2  4.0 4718472 430556 ?      Ssl  15:38   8:38 /usr/bin/gnome-shell
+root        2089  0.8  1.1 299440 121344 ?       Sl   15:02   0:22 /usr/bin/python3 /usr/bin/unattended-upgrade
+orion-p+    4167  0.0  1.0 1417536 113104 ?      Sl   15:38   0:00 /usr/libexec/mutter-x11-frames
+orion-p+    4112  0.0  0.8 478616 85060 ?        Ssl  15:38   0:00 /usr/libexec/gsd-xsettings
+root        2032  0.0  0.7 2045328 74648 ?       Ssl  15:02   0:01 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+orion-p+    3675  0.0  0.6 220368 68592 ?        S    15:38   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.AY4OG3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+orion-p+    3710  0.0  0.6 840764 64652 ?        Sl   15:38   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+orion-p+    4455  0.8  0.5 707272 59368 ?        Ssl  15:38   0:04 /usr/libexec/gnome-terminal-server
+orion-p+    4067  0.1  0.5 2772492 55372 ?       Sl   15:38   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
